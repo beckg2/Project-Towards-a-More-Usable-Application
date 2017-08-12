@@ -1,11 +1,12 @@
-# Project-Towards-a-More-Usable-Application
+# wats4000-project-towards-amore-usable-application
 
-Basic Requirements
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.16.0.
 
-Make enhancements to the HTML of templates, using better markup and adding classes or attributes as needed to create a more elegant visual presentation.
+## Build & development
 
-Use custom features of whatever templating language your application uses to create more functional and elegant interfaces. Identify and implement elements that may help with display or use.
+Run `grunt` for building and `grunt serve` for preview.
 
-Adjust Javascript to make sure that page and interface transitions call the appropriate animations and/or highlights. Be sure to highlight data and state changes.
+## Testing
 
-Enhance style definitions as needed to provide the best possible user interface.
+Running `grunt test` will run the unit tests with karma.
