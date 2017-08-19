@@ -1,3 +1,12 @@
+<div	ng-if="storage.savedCities">
+  <h2>Saved	Cities</h2>
+  <ul	class="saved-cities-list">
+    <li	ng-repeat="city	in	storage.savedCities">
+      <a	ng-href="#!/current/{{city.id}}"	class="btn	btn-lg	btn-primary">{{city.name}}</a>
+    </li>
+  </ul>
+  <p><button class="btn btn-sm btn-primary" ng-click="removeCity()">Clear Cities</button></p>
+</div>
 <div	ng-app	class="jumbotron"	ng-controller="MainCtrl">
   <h1>Select	Your	City</h1>
   <p	class="lead">
@@ -18,17 +27,9 @@
         <dd>{{city.weather[0].main}}	-	{{city.weather[0].description}}</dd>
         <dt>Temperature</dt>
         <dd>{{city.main.temp}}	&deg;F</dd>
+        <dd><img ng-src="http://openweathermap.org/img/w/{{city.weather[0].icon}}.png" alt="icon" style="width:250px;height:250px;"></dd>
         <dd><a	ng-href="#!/current/{{city.id}}"	class="btn	btn-lg	btn-primary">View	Weather</a></dd>
       </dl>
     </div>
   </p>
-</div>
-
-<div	ng-if="storage.savedCities">
-  <h2>Saved	Cities</h2>
-  <ul	class="saved-cities-list">
-    <li	ng-repeat="city	in	storage.savedCities">
-      <a	ng-href="#!/current/{{city.id}}"	class="btn	btn-lg	btn-primary">{{city.name}}</a>
-    </li>
-  </ul>
 </div>

@@ -14,7 +14,6 @@ angular.module('wats4000ProjectTowardsAMoreUsableApplicationApp')
   $scope.currentWeather	=	current.query({
     cityID:	$routeParams.cityID
   });
-
 $scope.saveCity	=	function(city){
   var	cityData	=	{
     'name':	city.name,
@@ -49,4 +48,3 @@ $scope.saveCity	=	function(city){
            }
          };
        });
-       

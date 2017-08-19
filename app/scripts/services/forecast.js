@@ -13,7 +13,7 @@ angular.module('wats4000ProjectTowardsAMoreUsableApplicationApp')
   //	...
 
   //	Public	API	here
-  return	$resource('http://api.openweathermap.org/data/2.5/forecast/daily?id=:cityID&cnt=5&units=imperial&APPID=a8e3a9a92d14fe6ae7e920debac049d1',	{},	{
+  return	$resource('http://api.openweathermap.org/data/2.5/forecast/daily?id=:cityID&cnt=7&units=imperial&APPID=a8e3a9a92d14fe6ae7e920debac049d1',	{},	{
     query:	{
       method:'GET',
       params:{
