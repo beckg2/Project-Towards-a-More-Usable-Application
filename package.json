@@ -42,5 +42,8 @@
   },
   "scripts": {
     "test": "karma start test\\karma.conf.js"
+  },
+  "dependencies": {
+    "source-map": "^0.5.6"
   }
 }
