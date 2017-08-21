@@ -6,16 +6,3 @@ div[ng-view].ng-enter	{
     -webkit-animation:	fadeOut	0.5s;
     animation:	fadeOut	0.5s;
   }
-
-
-
-  /*// Styles for animated transitions of HTML elements
-  div[ng-view].ng-enter {
-      -webkit-animation: fadeInDown 3.5s;
-      animation: fadeInDown 3.5s;
-  }
-  /*div[ng-view].ng-leave {
-      -webkit-animation: fadeInDown 0.5s;
-      animation: fadeInDown 0.5s;
-  }
-  */

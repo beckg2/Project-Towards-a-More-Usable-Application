@@ -250,10 +250,6 @@ module.exports = function (grunt) {
         ]
       },
       dist: {
-        options: {                         //added
-              outputStyle: 'nested',
-              sourceMap: true
-            },
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/styles',

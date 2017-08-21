@@ -1,15 +1,3 @@
-// Standard Buttons
-//
-// Standard Buttons used throughout the site.
-//
-// Markup:
-// <button class="btn {{modifier_class}}">Click Me</button>
-//
-// .btn-demo        -   Demo style for button
-// .btn-outline     -   Outlined button
-// .btn-dashed      -   Dashed outline button
-//
-// Styleguide: buttons.standard
 .jumbotron .btn {
     background: $btn-primary-color;
     color: $gray-base;
